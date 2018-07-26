@@ -8,7 +8,8 @@ from sklearn.metrics import accuracy_score
     
 
 class NeuralNetwork:
-    """ Class representing a Multi-Layer Perceptron 
+    """ 
+	Class representing a Multi-Layer Perceptron 
         The activation values are represented in a list of lists
         Connexions and weights are represented in a list of matrices such that :
             - Each element i of the list (a matrix) represents the incoming connexions
