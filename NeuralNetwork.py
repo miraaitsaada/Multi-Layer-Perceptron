@@ -5,19 +5,6 @@ import numpy as np
 from math import exp, log
 from random import random
 from sklearn.metrics import accuracy_score
-
-
-def sig(x):
-    return 1 / (1 + exp(-x))
-    
-def sig_prim(x):
-    return sig(x) * (1 - sig(x))
-
-def relu(x):
-    return log(1 + exp(x))
-    
-def relu_prim(x):
-    return 1 - exp(-relu(x))
     
 
 class NeuralNetwork:
